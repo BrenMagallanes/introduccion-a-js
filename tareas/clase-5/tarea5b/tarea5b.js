@@ -9,4 +9,6 @@ $botonAceptar.onclick = function() {
     document.querySelector('#mostrar-datos').innerText = `Tus nombres son ${primerNombreUsuario} ${segundoNombreUsuario}, tu apellido es ${apellidoUsuario} y tu edad es ${edadUsuario}`
     document.querySelector('#bienvenida-usuario-titulo').innerText = `Bienvenido ${primerNombreUsuario}!`
     document.querySelector('#bienvenida-usuario-titulo').style.color= "purple"
+    
+    return false;
 }
