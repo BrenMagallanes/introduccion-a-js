@@ -6,4 +6,5 @@ $botonAceptar.onclick = function() {
     const apellidoUsuario = document.querySelector('#apellido-usuario').value
     const edadUsuario = document.querySelector('#edad-usuario').value
 
+    document.querySelector('#mostrar-datos').innerText = `Tus nombres son ${primerNombreUsuario} ${segundoNombreUsuario}, tu apellido es ${apellidoUsuario} y tu edad es ${edadUsuario}`
 }
