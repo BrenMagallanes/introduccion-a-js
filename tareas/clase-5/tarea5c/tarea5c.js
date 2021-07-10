@@ -18,5 +18,9 @@ $calcularTiempoVideos.onclick = function(){
         segundosTotal -= 60
         minutosTotal++
     }
+    while(minutosTotal > 60){
+        minutosTotal -= 60
+        horasTotal++
+    }
 
 }
