@@ -23,4 +23,5 @@ $calcularTiempoVideos.onclick = function(){
         horasTotal++
     }
 
+    $mostrarTiempoTotal.innerText = `${horasTotal} Horas, ${minutosTotal} Minutos, ${segundosTotal} Segundos`
 }
