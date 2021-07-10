@@ -9,4 +9,7 @@ $calcularTiempoVideos.onclick = function(){
     let minutosTotal = 0
     let segundosTotal = 0
     
+    for(let i = 0; i < $horasDeVideo.length; i++){
+    }
+
 }
